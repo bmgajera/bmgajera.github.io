@@ -19,16 +19,26 @@ table {
 th {
   border-bottom: 1px solid #364043;
   color: #E2B842;
-  font-size: 0.85em;
+  font-size: 1.25em;
   font-weight: 600;
-  padding: 0.5em 1em;
-  text-align: left;
+  padding: 1em 1.25em;
+  text-align: center;
 }
 td {
-  color: #fff;
-  font-weight: 400;
-  padding: 0.65em 1em;
+  font-size: 0.75em;
+  color: #fff !important;
+  padding: 1em 2.5em;
 }
+
+a {
+  color: #f3f3f3 !important;
+  text-decoration: none;
+}
+
+td::after {
+  padding: 40px;
+}
+
 .disabled td {
   color: #4F5F64;
 }
@@ -37,5 +47,13 @@ tbody tr {
 }
 tbody tr:hover {
   background: #014055;
+}
+
+a:visited {
+  color: grey;
+}
+
+tr::after {
+  padding: 2em;
 }
 
