@@ -59,5 +59,14 @@ tr::after {
 div {
   margin: auto;
   margin-top: 15px;
+  display: block;
+  text-align:center;
+  padding: 0.5em;
 }
+
+div p {
+  color: #f0f0f0;
+  font-size: 1.15em;
+}
+
 
