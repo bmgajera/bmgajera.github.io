@@ -27,7 +27,7 @@ th {
 td {
   font-size: 0.75em;
   color: #fff !important;
-  padding: 1em 2.5em;
+  padding: 1.5em 2.5em;
 }
 
 a {
@@ -55,5 +55,9 @@ a:visited {
 
 tr::after {
   padding: 2em;
+}
+div {
+  margin: auto;
+  margin-top: 15px;
 }
 
